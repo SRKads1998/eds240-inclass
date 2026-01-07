@@ -6,6 +6,9 @@
 .RData
 .RDataTmp
 
+# ignore any folder named `data/` within folders named `week*` (* acts as a wildcard)
+/week*/data/
+
 # User-specific files
 .Ruserdata
 
